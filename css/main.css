@@ -1,0 +1,326 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+	background: #EFEFEF;
+}
+
+#page
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: #ffffff;
+	border: 1px solid #C9E0ED;
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+}
+
+#content
+{
+	float:left;
+    padding: 20px;
+	width:800px;
+	margin-left:38px;
+}
+
+#sidebar-left
+{
+	float:left;
+	width: 210px;
+	height: 500px;
+	background:#4c94e9;
+	border-left:1px solid #68a0fa;
+	border-right:1px solid #68a0fa;
+	border-bottom:1px solid #68a0fa;
+	color: #ffffff;
+
+}
+
+#side-login
+{
+	padding: 20px;
+	width:100%
+	margin-top: 0px;
+}
+
+#side-notifikasi
+{
+	border-top:1px solid #ffffff;
+
+}
+
+
+#sidebar-right
+{
+	width: 210px;
+	margin-right:30px;
+	float: right;
+	margin-top:280px;
+}
+
+#sidebar-right1
+{
+	width: 210px;
+	margin-right:30px;
+	float: right;
+	margin-top:80px;
+}
+
+#operation
+{
+	float:right;
+	position:absolute;
+	width: 220px;
+	margin-top:-10px;
+	right:7px;
+}
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+}
+
+/*
+#logo
+{
+	padding: 10px 20px;
+	font-size: 200%;
+}*/
+
+#mainmenu
+{
+	background:#304c7c;
+	height:37px;
+	border:1px solid white;
+}
+
+#mainmenu ul
+{
+	padding:9px 20px 5px 20px;
+	margin:0px;
+	float:right;
+}
+
+#mainmenu ul li
+{
+	display: inline;
+}
+
+#mainmenu ul li a
+{
+	color:#ffffff;
+	background-color:transparent;
+	font-size:16px;
+	font-family:arial,sans-serif;
+	text-decoration:none;
+	padding:5px 8px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	color: #000000;
+	background-color:#ffffff;
+	/* border:1px solid white; */
+	text-decoration:none;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	margin: 10px 0;
+	background: #eee;
+}
+
+.portlet
+{
+	border:1px solid #000000;
+	width:210px;
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-bottom: 1px solid #000000;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #000000;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#ffffff;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #73b2e8;
+}
+
+div.persetujuan
+{
+	margin-top:10px;
+	float:right;
+}
+
+div.persetujuan a:hover
+{
+	-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+	-goog-ms-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .5); 
+}
+
+div.gambar
+{
+	margin-top:20px;
+	width:150px;
+	height:150px;
+	-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+	-goog-ms-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .5); 
+}	
+
+div.kotak
+{
+	border:1px solid #c0d4ea;
+	padding:2px;
+	color:black;
+	background:#f4f6f9;
+	border-radius: 2px 2px 2px 2px;
+	
+}
+
+.kotak:hover
+{
+	-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+	-goog-ms-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .5); 
+}
